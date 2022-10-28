@@ -1,0 +1,10 @@
+.footer {
+    background-color: hsl(207, 100%, 42%);
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(52, 100%, 50%);
+}
