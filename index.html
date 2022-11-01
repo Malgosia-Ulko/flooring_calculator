@@ -24,10 +24,10 @@
 <body class="body">
 
     <header class="header">
-        Kalkulator "Mój jest ten kawałek podłogi"
+        <h1>Kalkulator "Mój jest ten kawałek podłogi"</h1>
     </header>
 
-    <h1 class="seoQuestion">Jak sprawdzić ile paneli lub płytek potrzebuję?</h1>
+    <h2 class="seoQuestion">Jak sprawdzić ile paneli lub płytek potrzebuję?</h2>
 
     <div class="calculator">
 
@@ -79,7 +79,7 @@
                 </p>
 
                 <p class="form__result"> Potrzebujesz
-                    <strong class="js-space form__result--number"></strong>
+                    <strong class="js-space form__resultNumber"></strong>
                     m2 produktu
                 </p>
 
@@ -98,8 +98,7 @@
                         <span class="form__labelText">
                             Ilość m2 w opakowaiu
                         </span>
-                        <input class="js-packageContent form__field" type="number" min="1" step="any"
-                            name="packageContent" required>
+                        <input class="js-packageContent form__field" type="number" min="0.1" step="any" name="packageContent" required>
                     </label>
                 </p>
 
@@ -108,7 +107,7 @@
                 </p>
 
                 <p class="form__result"> Kup
-                    <strong class="js-packageQuantity form__result--number"></strong>
+                    <strong class="js-packageQuantity form__resultNumber"></strong>
                     opak. produktu
                 </p>
 
@@ -117,7 +116,7 @@
                         <span class="form__labelText">
                             Cena za opakowanie w pln
                         </span>
-                        <input class="js-packagePrice form__field" type="number" min="1" step="any" name="packagePrice">
+                        <input class="js-packagePrice form__field" type="number" min="0.1" step="any" name="packagePrice">
                     </label>
                 </p>
 
@@ -126,7 +125,7 @@
                 </p>
 
                 <p class="form__result"> Zapłacisz
-                    <strong class="js-finalPrice form__result--number"></strong>
+                    <strong class="js-finalPrice form__resultNumber"></strong>
                     pln
                 </p>
 
