@@ -10,5 +10,8 @@ html {
 
 .body {
     font-family: 'Quicksand', sans-serif;
-    background-color: hsl(0, 0%, 96%);
+    background-image: url("../images/man-installing-laminate-floor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
