@@ -1,62 +1,68 @@
-console.log("Witaj w kalkulatorze materiałów wykończeniowych!")
+{
+    const welcome = () => {
+        console.log("Witaj w kalkulatorze materiałów wykończeniowych!")
+    }
 
-let spaceFormElement = document.querySelector(".js-spaceForm");
-let widthElement = document.querySelector(".js-roomWidth");
-let LengthElement = document.querySelector(".js-roomLength");
-let spareElement = document.querySelector(".js-spare");
-let spaceElement = document.querySelector(".js-space");
-let cmToM2Converter = 10000
+    welcome ();
+
+const spaceFormElement = document.querySelector(".js-spaceForm");
+const widthElement = document.querySelector(".js-roomWidth");
+const LengthElement = document.querySelector(".js-roomLength");
+const spareElement = document.querySelector(".js-spare");
+const spaceElement = document.querySelector(".js-space");
+const cmToM2Converter = 10000
 
 spaceFormElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let width = widthElement.value;
-    let Length = LengthElement.value;
-    let spare = spareElement.value;
+    const width = widthElement.value;
+    const Length = LengthElement.value;
+    const spare = spareElement.value;
 
-    let space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
 
     spaceElement.innerText = space.toFixed(2);
 });
 
-let quantityFormElement = document.querySelector(".js-quantityForm");
-let contentElement = document.querySelector(".js-packageContent");
-let quantityElement = document.querySelector(".js-packageQuantity");
+const quantityFormElement = document.querySelector(".js-quantityForm");
+const contentElement = document.querySelector(".js-packageContent");
+const quantityElement = document.querySelector(".js-packageQuantity");
 
 quantityFormElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let content = contentElement.value;
+    const content = contentElement.value;
 
-    let width = widthElement.value;
-    let Length = LengthElement.value;
-    let spare = spareElement.value;
+    const width = widthElement.value;
+    const Length = LengthElement.value;
+    const spare = spareElement.value;
 
-    let space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
 
-    let quantity = space / content;
+    const quantity = space / content;
 
     quantityElement.innerText = Math.ceil(quantity);
 })
 
-let priceButton = document.querySelector(".js-priceButton");
-let packagePriceElement = document.querySelector(".js-packagePrice");
-let finalPriceElement = document.querySelector(".js-finalPrice");
+const priceButton = document.querySelector(".js-priceButton");
+const packagePriceElement = document.querySelector(".js-packagePrice");
+const finalPriceElement = document.querySelector(".js-finalPrice");
 
 priceButton.addEventListener("click", () => {
-    let content = contentElement.value;
+    const content = contentElement.value;
 
-    let width = widthElement.value;
-    let Length = LengthElement.value;
-    let spare = spareElement.value;
+    const width = widthElement.value;
+    const Length = LengthElement.value;
+    const spare = spareElement.value;
 
-    let space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
 
-    let quantity = space / content;
+    const quantity = space / content;
 
-    let packagePrice = packagePriceElement.value;
+    const packagePrice = packagePriceElement.value;
 
-    let finalPrice = (Math.ceil(quantity) * packagePrice);
+    const finalPrice = (Math.ceil(quantity) * packagePrice);
 
     finalPriceElement.innerText = finalPrice.toFixed(2);
 });
+}
