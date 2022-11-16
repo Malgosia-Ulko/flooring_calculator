@@ -7,7 +7,7 @@
 
 const spaceFormElement = document.querySelector(".js-spaceForm");
 const widthElement = document.querySelector(".js-roomWidth");
-const LengthElement = document.querySelector(".js-roomLength");
+const lengthElement = document.querySelector(".js-roomLength");
 const spareElement = document.querySelector(".js-spare");
 const spaceElement = document.querySelector(".js-space");
 const cmToM2Converter = 10000
@@ -16,10 +16,10 @@ spaceFormElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const width = widthElement.value;
-    const Length = LengthElement.value;
+    const length = lengthElement.value;
     const spare = spareElement.value;
 
-    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * length / cmToM2Converter * (1 + (spare / 100));
 
     spaceElement.innerText = space.toFixed(2);
 });
@@ -34,10 +34,10 @@ quantityFormElement.addEventListener("submit", (event) => {
     const content = contentElement.value;
 
     const width = widthElement.value;
-    const Length = LengthElement.value;
+    const length = lengthElement.value;
     const spare = spareElement.value;
 
-    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * length / cmToM2Converter * (1 + (spare / 100));
 
     const quantity = space / content;
 
@@ -52,10 +52,10 @@ priceButton.addEventListener("click", () => {
     const content = contentElement.value;
 
     const width = widthElement.value;
-    const Length = LengthElement.value;
+    const length = lengthElement.value;
     const spare = spareElement.value;
 
-    const space = width * Length / cmToM2Converter * (1 + (spare / 100));
+    const space = width * length / cmToM2Converter * (1 + (spare / 100));
 
     const quantity = space / content;
 
