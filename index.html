@@ -31,113 +31,113 @@
 
     <h2 class="seoQuestion">Jak sprawdzić ile paneli lub płytek potrzebuję?</h2>
 
-    <div class="calculator">
+        <div class="calculator">
 
-        <form class="js-spaceForm">
-
-            <fieldset class="form__fieldset">
-
-                <legend class="form__legend">Przelicznik metrażu</legend>
-
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Szerokość pomieszczenia w cm
-                        </span>
-                        <input class="js-roomWidth form__field" type="number" min="1" step="any" name="roomWidth"
-                            required>
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Długość pomieszczenia w cm
-                        </span>
-                        <input class="js-roomLength form__field" type="number" min="1" step="any" name="roomLength"
-                            required>
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Zaplanuj % zapasu
-                        </span>
-                        <select class="js-spare form__field" name="spare">
-                            <option>0</option>
-                            <option>5</option>
-                            <option>10</option>
-                            <option>15</option>
-                            <option>20</option>
-                            <option>25</option>
-                            <option>30</option>
-                        </select>
-                    </label>
-                </p>
-
-                <p>
-                    <button class="form__button">Przelicz metraż!</button>
-                </p>
-
-                <p class="form__result"> Potrzebujesz
-                    <strong class="js-space form__resultNumber"></strong>
-                    m2 produktu
-                </p>
-
-            </fieldset>
-
-        </form>
-
-        <form class="js-quantityForm">
-
-            <fieldset class="form__fieldset">
-
-                <legend class="form__legend">Przelicznik opakowań i kosztu</legend>
-
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Ilość m2 w opakowaiu
-                        </span>
-                        <input class="js-packageContent form__field" type="number" min="0.1" step="any"
-                            name="packageContent" required>
-                    </label>
-                </p>
-
-                <p>
-                    <button class="form__button">Przelicz opakowania!</button>
-                </p>
-
-                <p class="form__result"> Kup
-                    <strong class="js-packageQuantity form__resultNumber"></strong>
-                    opak. produktu
-                </p>
-
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Cena za opakowanie w pln
-                        </span>
-                        <input class="js-packagePrice form__field" type="number" min="0.1" step="any"
-                            name="packagePrice">
-                    </label>
-                </p>
-
-                <p>
-                    <button class="js-priceButton form__button">Przelicz cenę!</button>
-                </p>
-
-                <p class="form__result"> Zapłacisz
-                    <strong class="js-finalPrice form__resultNumber"></strong>
-                    pln
-                </p>
-
-            </fieldset>
-
-        </form>
-
-    </div>
+            <form class="js-spaceForm">
+    
+                <fieldset class="form__fieldset">
+    
+                    <legend class="form__legend">Przelicznik metrażu</legend>
+    
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Szerokość pomieszczenia w cm
+                            </span>
+                            <input class="js-roomWidth form__field" type="number" min="1" step="any" name="roomWidth"
+                                required>
+                        </label>
+                    </p>
+    
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Długość pomieszczenia w cm
+                            </span>
+                            <input class="js-roomLength form__field" type="number" min="1" step="any" name="roomLength"
+                                required>
+                        </label>
+                    </p>
+    
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Zaplanuj % zapasu
+                            </span>
+                            <select class="js-spare form__field" name="spare">
+                                <option>0</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                                <option>25</option>
+                                <option>30</option>
+                            </select>
+                        </label>
+                    </p>
+    
+                    <p>
+                        <button class="form__button">Przelicz metraż!</button>
+                    </p>
+    
+                    <p class="form__result"> Potrzebujesz
+                        <strong class="js-space form__resultNumber"></strong>
+                        m2 produktu
+                    </p>
+    
+                </fieldset>
+    
+            </form>
+    
+            <form class="js-quantityForm">
+    
+                <fieldset class="form__fieldset">
+    
+                    <legend class="form__legend">Przelicznik opakowań i kosztu</legend>
+    
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Ilość m2 w opakowaiu
+                            </span>
+                            <input class="js-packageContent form__field" type="number" min="0.1" step="any"
+                                name="packageContent" required>
+                        </label>
+                    </p>
+    
+                    <p>
+                        <button class="form__button">Przelicz opakowania!</button>
+                    </p>
+    
+                    <p class="form__result"> Kup
+                        <strong class="js-packageQuantity form__resultNumber"></strong>
+                        opak. produktu
+                    </p>
+    
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Cena za opakowanie w pln
+                            </span>
+                            <input class="js-packagePrice form__field" type="number" min="0.1" step="any"
+                                name="packagePrice">
+                        </label>
+                    </p>
+    
+                    <p>
+                        <button class="js-priceButton form__button">Przelicz cenę!</button>
+                    </p>
+    
+                    <p class="form__result"> Zapłacisz
+                        <strong class="js-finalPrice form__resultNumber"></strong>
+                        pln
+                    </p>
+    
+                </fieldset>
+    
+            </form>
+    
+        </div>
 
     <footer class="footer"> &copy; 2022 Malgosia Ulko</footer>
 
