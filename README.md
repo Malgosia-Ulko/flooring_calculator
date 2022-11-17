@@ -11,13 +11,19 @@ I'm particularly proud of it as this was done in my second month of learning how
 https://malgosia-ulko.github.io/flooring_calculator/
 
 ## Animated presentation
-![Flooring_calculator_1](https://user-images.githubusercontent.com/116841279/201481278-f6376f6b-1432-4ff8-ade1-edf3abe5904b.gif)
+![Flooring_calculator_presentation_1](https://user-images.githubusercontent.com/116841279/202410334-34802040-e1a2-49ea-b89a-4cd4a90f3479.gif)
 
 ## Screenshot at start
-![Flooring_calculator_start_screenshot_1](https://user-images.githubusercontent.com/116841279/201481291-532b1521-18b3-4a9b-aa58-64af475f6ea6.JPG)
+![Flooring_calculator_screen_at_start_1](https://user-images.githubusercontent.com/116841279/202410388-c5298a14-667f-4ff1-a176-c4267602ef00.JPG)
 
 ## Screenshot when filled and working
-![Flooring_calculator_end_screenshot_1](https://user-images.githubusercontent.com/116841279/201481303-223392a6-99f0-4fb8-99f0-23ff538bb40b.JPG)
+![Flooring_calculator_screen_filled_1](https://user-images.githubusercontent.com/116841279/202410466-2ee5695d-b781-434d-8a89-5a6d57c4b40f.JPG)
 
 ## Technology used in the project
-HTML, CSS, JS, BEM
+- HTML
+- CSS
+- Flexbox
+- JS
+- ES6 features (arrow functions)
+- BEM
+- Markdown
