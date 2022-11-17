@@ -2,7 +2,7 @@
     background-color: hsl(207, 100%, 42%);
     width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto 0;
     padding: 15px 0;
     font-size: 14px;
     font-weight: 600;

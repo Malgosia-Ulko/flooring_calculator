@@ -10,6 +10,8 @@ html {
 
 .body {
     font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
     background-image: url("../images/man-installing-laminate-floor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
